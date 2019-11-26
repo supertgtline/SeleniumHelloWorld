@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.Topic_01_CheckEnvironment">
+      <class name="HelloWorld.Topic_02_CheckEnviroment">
         <methods>
-          <include name="TC_03_LoginFormDisplayed"/>
+          <include name="TC_02_Check_Homepage_Title"/>
+          <include name="TC_01_Check_HomePage"/>
+          <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="TC_02_ValidatePageTitle"/>
-          <include name="TC_01_ValidateCurrentUrl"/>
         </methods>
-      </class> <!-- selenium.Topic_01_CheckEnvironment -->
+      </class> <!-- HelloWorld.Topic_02_CheckEnviroment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

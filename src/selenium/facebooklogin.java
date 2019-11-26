@@ -40,6 +40,11 @@ public class facebooklogin {
 		// Login form displayed
 		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
 	}
+	@Test
+	public void TC_04_InputValueLoginForm() {
+		// Input special value
+		
+	}
 
 	@AfterClass
 	public void afterClass() {
